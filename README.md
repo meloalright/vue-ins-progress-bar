@@ -78,7 +78,7 @@ this.$insProgress.finish() // finish the loading
 ```
    
 ```JavaScript
-this.$insProgress.height(8) // resize the height to 8px of loading bar
+this.$insProgress.height(4) // resize the height of loading bar to 4px
 ```
    
    
