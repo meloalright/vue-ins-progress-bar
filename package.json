@@ -1,0 +1,39 @@
+{
+  "name": "vue-ins-progress-bar",
+  "version": "0.0.1",
+  "description": "A vue ins progress bar",
+  "main": "dist/vue-ins-progress-bar.js",
+  "keywords": [
+    "vue ins progress bar",
+    "vue ins loading bar",
+    "vue loading progress",
+    "vue progress bar",
+    "vue loading bar",
+    "vue ins",
+    "vue",
+    "vue loading",
+    "vue progress",
+    "loading progress",
+    "progress bar"
+  ],
+  "dependencies": {
+    "style-loader": "^0.21.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "cross-env": "^5.2.0",
+    "css-loader": "^1.0.0",
+    "file-loader": "^1.1.11",
+    "vue": "^2.5.16",
+    "vue-loader": "^15.2.4",
+    "webpack": "^4.15.1",
+    "webpack-command": "^0.4.1"
+  },
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack",
+    "test": "echo no test specified"
+  },
+  "author": "meloalright",
+  "license": "MIT"
+}
