@@ -11,6 +11,10 @@
     
 [Live Demo](https://meloalright.github.io/vue-ins-progress-bar/index.html)   
    
+# NPM    
+    
+`npm`    
+   
 # Install    
     
 ```    
