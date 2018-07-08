@@ -33,7 +33,7 @@ const options = {
 Vue.use(VueInsProgressBar, options)
 ```
     
----    
+    
     
 `App.vue`    
     
@@ -65,8 +65,15 @@ export default {
   }
 }
 </script>
-```       
+```
+      
+## Source    
+   
+Repository: [vue-ins-progress-bar](https://github.com/meloalright/vue-ins-progress-bar)      
+   
+Author: [@meloalright](https://github.com/meloalright)   
+   
    
 ## License   
    
-`MIT`
+[MIT](https://opensource.org/licenses/MIT)   
