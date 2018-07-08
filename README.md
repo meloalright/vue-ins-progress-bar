@@ -12,6 +12,10 @@ npm install vue-ins-progress-bar
    
 # Demo    
    
+[Demo](https://meloalright.github.io/vue-ins-progress-bar/)   
+   
+# Example    
+   
 ```JavaScript
 import Vue from 'vue'
 import App from './App'
