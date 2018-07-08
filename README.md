@@ -1,4 +1,4 @@
-![slogan](https://user-images.githubusercontent.com/11075892/42421467-a0b8dd12-8308-11e8-98c0-f95c46ec516a.png)     
+![slogan](https://user-images.githubusercontent.com/11075892/42421484-e620f0d8-8308-11e8-8b6c-0e659eadfcd3.png)     
    
    
 # vue-ins-progress-bar   
