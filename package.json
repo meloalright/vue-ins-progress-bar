@@ -1,5 +1,6 @@
 {
   "name": "vue-ins-progress-bar",
+  "author": "meloalright",
   "version": "0.0.1",
   "description": "A vue ins progress bar",
   "main": "dist/vue-ins-progress-bar.js",
@@ -34,6 +35,10 @@
     "build": "cross-env NODE_ENV=production webpack",
     "test": "echo no test specified"
   },
-  "author": "meloalright",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meloalright/vue-ins-progress-bar.git"
+  },
+  "homepage": "https://github.com/meloalright/vue-ins-progress-bar#readme",
   "license": "MIT"
 }
