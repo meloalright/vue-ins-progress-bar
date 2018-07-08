@@ -19,15 +19,10 @@ npm install vue-ins-progress-bar
    
 # Example    
    
+`main.js`   
+   
 ```JavaScript
-import Vue from 'vue'
-import App from './App'
-import router from './router'
 import VueInsProgressBar from 'vue-ins-progress-bar'
-
-Vue.config.productionTip = false
-
-
 
 const options = {
   position: 'fixed',
@@ -36,15 +31,11 @@ const options = {
 }
 
 Vue.use(VueInsProgressBar, options)
-
-
-new Vue({
-  el: '#app',
-  router,
-  components: { App },
-  template: '<App/>'
-})
 ```
+    
+---    
+    
+`App.vue`    
     
 ```vue    
 <template>
