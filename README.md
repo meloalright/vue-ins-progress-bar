@@ -66,7 +66,22 @@ export default {
 }
 </script>
 ```
-      
+   
+## APIs   
+   
+```JavaScript
+this.$insProgress.start() // start the loading
+```
+   
+```JavaScript
+this.$insProgress.finish() // finish the loading
+```
+   
+```JavaScript
+this.$insProgress.height(8) // resize the height to 8px of loading bar
+```
+   
+   
 ## Source    
    
 Repository: [vue-ins-progress-bar](https://github.com/meloalright/vue-ins-progress-bar)      
