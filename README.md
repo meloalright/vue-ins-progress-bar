@@ -1,3 +1,6 @@
+![slogan](https://user-images.githubusercontent.com/11075892/42421467-a0b8dd12-8308-11e8-98c0-f95c46ec516a.png)     
+   
+   
 # vue-ins-progress-bar   
    
 `a vue component of ins-style progress bar`   
