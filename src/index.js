@@ -15,30 +15,70 @@ function install (Vue, options = {}) {
     let insProgress = {
         $vm: null,
         state: {
-            timer: null
+            timer: { fadeAway: null, fill: null },
+            isFull: false,
+            isfw: false
         },
         init (vm) {
             this.$vm = vm
         },
-        start (time) {
-            if (!this.$vm) return
-            clearTimeout(this.timer)
-            this.timer = null
+        __fillBeginning () {
+            this.state.isFull = false
             this.$vm.INSPB.options.show = true
             this.$vm.INSPB.options.__isDisplay = true
+        },
+        __fillFinally () {
+            this.state.isFull = true
+            this.state.timer.fill = null
+        },
+        __fadeBeginning () {
+            this.state.isfw = false
+            this.$vm.INSPB.options.show = false
+        },
+        __fadeFinally () {
+            this.$vm.INSPB.options.__isDisplay = false
+            this.state.timer.fadeAway = null
+            this.state.isFull = null
+        },
+        __isFilling () {
+            return this.state.timer.fill
+        },
+        __isFading () {
+            return this.state.timer.fadeAway
+        },
+        __rescue () {
+            clearTimeout(this.state.timer.fadeAway)
+            this.state.timer.fadeAway = null;
+        },
+        __waiting () {
+            this.state.isfw = true
+        },
+        __isWaiting () {
+            return this.state.isfw;
+        },
+        start (time) {
+            if (!this.$vm) return
+            if (this.__isFilling()) return
+            this.__rescue();
+            this.__fillBeginning();
+            this.state.timer.fill = setTimeout(() => {
+                this.__fillFinally()
+                if (this.__isWaiting()) { this.finish() } 
+            }, 500)
         },
         height (h) {
             this.$vm.INSPB.options.height = `${h}px`
         },
         __hide () {
-            if (this.timer) { return }
-            setTimeout(() => {
-                this.$vm.INSPB.options.show = false
-                this.timer = setTimeout(() => {
-                    this.$vm.INSPB.options.__isDisplay = false
-                    this.timer = null
-                }, 1000)
-            }, 100)
+            if (this.__isFading()) return
+            if (this.__isFilling()) {
+                this.__waiting()
+                return
+            }
+            this.__fadeBeginning()
+            this.state.timer.fadeAway = setTimeout(() => {
+                this.__fadeFinally()
+            }, 500)
         },
         finish () {
             if (!this.$vm) return
