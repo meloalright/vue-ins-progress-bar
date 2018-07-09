@@ -1,0 +1,1 @@
+cp -rf demo/dist/* ./
