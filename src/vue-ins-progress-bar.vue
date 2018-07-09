@@ -46,8 +46,8 @@ export default {
     -webkit-animation: 2s linear infinite ins,.5s ease-out insEnter;
     animation: 2s linear infinite ins,.5s ease-out insEnter;
 
-    -webkit-transition: opacity 0.2s ease-in-out;
-    transition: opacity 0.2s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
 
     -webkit-transform-origin: left;
     transform-origin: left;

@@ -23,6 +23,7 @@ function install (Vue, options = {}) {
         start (time) {
             if (!this.$vm) return
             clearTimeout(this.timer)
+            this.timer = null
             this.$vm.INSPB.options.show = true
             this.$vm.INSPB.options.__isDisplay = true
         },
@@ -30,13 +31,14 @@ function install (Vue, options = {}) {
             this.$vm.INSPB.options.height = `${h}px`
         },
         __hide () {
-            clearTimeout(this.timer)
-            this.timer = setTimeout(() => {
+            if (this.timer) { return }
+            setTimeout(() => {
                 this.$vm.INSPB.options.show = false
                 this.timer = setTimeout(() => {
                     this.$vm.INSPB.options.__isDisplay = false
-                }, 200)
-            }, 300)
+                    this.timer = null
+                }, 1000)
+            }, 100)
         },
         finish () {
             if (!this.$vm) return
