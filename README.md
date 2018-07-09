@@ -1,7 +1,7 @@
 ![slogan](https://user-images.githubusercontent.com/11075892/42421484-e620f0d8-8308-11e8-8b6c-0e659eadfcd3.png)     
    
    
-# vue-ins-progress-bar   
+# vue-ins-progress-bar    
    
 `a vue component of ins-style progress bar`   
    
@@ -13,7 +13,7 @@
    
 # NPM    
     
-`npm`    
+[npm - vue-ins-progress-bar](https://www.npmjs.com/package/vue-ins-progress-bar)       
    
 # Install    
     
