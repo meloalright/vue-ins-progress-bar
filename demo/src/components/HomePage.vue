@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <img v-bind:style="{opacity: loaded? 1: 0 }" src="https://user-images.githubusercontent.com/11075892/42421484-e620f0d8-8308-11e8-8b6c-0e659eadfcd3.png" class="rainbow"/>
+    <img v-bind:style="{opacity: loaded? 1: 0 }" src="@/assets/42421484-e620f0d8-8308-11e8-8b6c-0e659eadfcd3.png" class="rainbow"/>
     <br/>
     <h2 v-bind:style="{opacity: loaded? 1: 0 }" class="switch">Press &nbsp;<toggle-button :value="isLoading" @change="change" :labels="{checked: 'Loading', unchecked: 'Finished'}" :width="80"/>&nbsp; {{text}}</h2>
   </div>
