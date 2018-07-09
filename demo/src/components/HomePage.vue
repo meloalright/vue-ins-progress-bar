@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <img :src="rainbow" style="max-width: 100%; margin: auto" v-on:load="onload"/>
+    <img src="https://user-images.githubusercontent.com/11075892/42421484-e620f0d8-8308-11e8-8b6c-0e659eadfcd3.png" style="max-width: 100%; margin: auto" v-on:load="onload"/>
     <br/>
     <h2 v-show="loaded" style="width: 248px; margin: auto; text-align: left; overflow: hidden; white-space: nowrap; ">Press &nbsp;<toggle-button :value="isLoading" @change="change" :labels="{checked: 'Loading', unchecked: 'Finished'}" :width="80"/>&nbsp; {{text}}</h2>
   </div>
@@ -11,7 +11,6 @@ export default {
   name: 'HomePage',
   data () {
     return {
-      rainbow: 'https://user-images.githubusercontent.com/11075892/42421484-e620f0d8-8308-11e8-8b6c-0e659eadfcd3.png',
       text: 'to finish',
       isLoading: true,
       loaded: false
