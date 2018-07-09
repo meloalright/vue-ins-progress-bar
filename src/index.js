@@ -17,7 +17,7 @@ function install (Vue, options = {}) {
         state: {
             timer: { fadeAway: null, fill: null },
             isFull: false,
-            isfw: false
+            isWFA: false
         },
         init (vm) {
             this.$vm = vm
@@ -32,7 +32,7 @@ function install (Vue, options = {}) {
             this.state.timer.fill = null
         },
         __fadeBeginning () {
-            this.state.isfw = false
+            this.state.isWFA = false
             this.$vm.INSPB.options.show = false
         },
         __fadeFinally () {
@@ -46,20 +46,21 @@ function install (Vue, options = {}) {
         __isFading () {
             return this.state.timer.fadeAway
         },
-        __rescue () {
+        __killFading () {
             clearTimeout(this.state.timer.fadeAway)
-            this.state.timer.fadeAway = null;
+            this.state.isWFA = false
+            this.state.timer.fadeAway = null
         },
         __waiting () {
-            this.state.isfw = true
+            this.state.isWFA = true
         },
         __isWaiting () {
-            return this.state.isfw;
+            return this.state.isWFA;
         },
         start (time) {
             if (!this.$vm) return
+            this.__killFading();
             if (this.__isFilling()) return
-            this.__rescue();
             this.__fillBeginning();
             this.state.timer.fill = setTimeout(() => {
                 this.__fillFinally()
