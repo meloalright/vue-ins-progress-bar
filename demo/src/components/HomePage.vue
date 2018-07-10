@@ -46,6 +46,7 @@ export default {
     this.handler = () => {
       this.onload()
     };
+    setTimeout(this.handler, 10)
     window.addEventListener('load', this.handler)
   },
   beforeDestroy () {
