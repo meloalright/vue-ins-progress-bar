@@ -1,8 +1,12 @@
 <template>
   <div class="hello">
-    <img v-bind:style="{opacity: loaded? 1: 0 }" src="@/assets/42421484-e620f0d8-8308-11e8-8b6c-0e659eadfcd3.png" class="rainbow"/>
+    <img v-bind:style="{opacity: loaded? 1: 0 }" src="@/assets/rainbow.png" class="rainbow"/>
     <br/>
     <h2 v-bind:style="{opacity: loaded? 1: 0 }" class="switch">Press &nbsp;<toggle-button :value="isLoading" @change="change" :labels="{checked: 'Loading', unchecked: 'Finished'}" :width="80"/>&nbsp; {{text}}</h2>
+    <br/>
+    <br/>
+    <br/>
+    <a class="github" v-bind:style="{opacity: loaded? 1: 0 }" :href="github"><img :src="shields"></a>
   </div>
 </template>
 
@@ -11,6 +15,8 @@ export default {
   name: 'HomePage',
   data () {
     return {
+      github: 'https://github.com/meloalright/vue-ins-progress-bar',
+      shields: 'https://img.shields.io/badge/github-view-lightgrey.svg?logo=github&style=for-the-badge',
       text: 'to finish',
       isLoading: true,
       handler: null,
@@ -84,6 +90,9 @@ button {
   text-align: left;
   overflow: hidden;
   white-space: nowrap;
+  transition: opacity 0.5s ease-in-out;
+}
+.github {
   transition: opacity 0.5s ease-in-out;
 }
 </style>
