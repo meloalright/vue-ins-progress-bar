@@ -11,17 +11,15 @@
     
 [Live Demo](https://meloalright.github.io/vue-ins-progress-bar/)   
    
-# NPM    
-    
-[npm - vue-ins-progress-bar](https://www.npmjs.com/package/vue-ins-progress-bar)       
-   
 # Install    
     
-```    
-npm install vue-ins-progress-bar
 ```
    
-# Example    
+npm install vue-ins-progress-bar
+   
+```
+   
+# Usage    
    
 `main.js`   
    
