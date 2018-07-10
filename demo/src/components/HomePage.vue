@@ -6,7 +6,7 @@
     <br/>
     <br/>
     <br/>
-    <a class="github" v-bind:style="{opacity: loaded? 1: 0 }" :href="github"><img :src="shields"></a>
+    <a class="github" v-bind:style="{opacity: loaded? 1: 0 }" :href="github"><img src="@/assets/badage.svg"></a>
   </div>
 </template>
 
@@ -16,7 +16,6 @@ export default {
   data () {
     return {
       github: 'https://github.com/meloalright/vue-ins-progress-bar',
-      shields: 'https://img.shields.io/badge/github-view-lightgrey.svg?logo=github&style=for-the-badge',
       text: 'to finish',
       isLoading: true,
       handler: null,
