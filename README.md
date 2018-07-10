@@ -14,9 +14,7 @@
 # Install    
     
 ```
-   
-npm install vue-ins-progress-bar
-   
+npm i vue-ins-progress-bar   
 ```
    
 # Usage    
