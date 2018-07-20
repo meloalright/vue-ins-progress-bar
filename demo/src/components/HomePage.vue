@@ -79,8 +79,10 @@ button {
   width: 60px;
   margin: 5px;
 }
-.rainbow {
+.hello {
   transition: opacity 0.5s ease-in-out;
+}
+.rainbow {
   max-width: 80%;
   margin: auto;
 }
@@ -90,9 +92,6 @@ button {
   text-align: left;
   overflow: hidden;
   white-space: nowrap;
-  transition: opacity 0.5s ease-in-out;
 }
-.github {
-  transition: opacity 0.5s ease-in-out;
-}
+.github {}
 </style>
