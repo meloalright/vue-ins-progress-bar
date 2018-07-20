@@ -1,1 +1,3 @@
-cp -rf demo/dist/* ./
+rm index.html;
+rm -rf static/*;
+cp -rf demo/dist/* ./;

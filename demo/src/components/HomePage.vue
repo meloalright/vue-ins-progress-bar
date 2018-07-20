@@ -1,12 +1,12 @@
 <template>
-  <div class="hello">
-    <img v-bind:style="{opacity: loaded? 1: 0 }" src="@/assets/rainbow.png" class="rainbow"/>
+  <div class="hello" v-bind:style="{opacity: loaded? 1: 0 }">
+    <img src="@/assets/rainbow.png" class="rainbow"/>
     <br/>
-    <h2 v-bind:style="{opacity: loaded? 1: 0 }" class="switch">Press &nbsp;<toggle-button :value="isLoading" @change="change" :labels="{checked: 'Loading', unchecked: 'Finished'}" :width="80"/>&nbsp; {{text}}</h2>
+    <h2 class="switch">Press &nbsp;<toggle-button :value="isLoading" @change="change" :labels="{checked: 'Loading', unchecked: 'Finished'}" :width="80"/>&nbsp; {{text}}</h2>
     <br/>
     <br/>
     <br/>
-    <a class="github" v-bind:style="{opacity: loaded? 1: 0 }" :href="github"><img src="@/assets/badage.svg"></a>
+    <a class="github" :href="github"><img src="@/assets/badage.svg"></a>
   </div>
 </template>
 
@@ -45,7 +45,7 @@ export default {
     this.handler = () => {
       this.onload()
     };
-    setTimeout(this.handler, 10)
+    setTimeout(this.handler, 10000)
     window.addEventListener('load', this.handler)
   },
   beforeDestroy () {
