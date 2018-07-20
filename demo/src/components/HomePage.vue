@@ -1,6 +1,6 @@
 <template>
   <div class="hello" v-bind:style="{opacity: loaded? 1: 0 }">
-    <img src="https://user-images.githubusercontent.com/11075892/42421484-e620f0d8-8308-11e8-8b6c-0e659eadfcd3.png" class="rainbow"/>
+    <img src="@/assets/rainbow.png" class="rainbow"/>
     <br/>
     <h2 class="switch">Press &nbsp;<toggle-button :value="isLoading" @change="change" :labels="{checked: 'Loading', unchecked: 'Finished'}" :width="80"/>&nbsp; {{text}}</h2>
     <br/>
