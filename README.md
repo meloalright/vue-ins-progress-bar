@@ -7,17 +7,17 @@
    
 `一款 ins 风格的 vue 进度条组件`   
    
-# Demo    
+## Demo    
     
 [Live Demo](https://meloalright.github.io/vue-ins-progress-bar/)   
    
-# Install    
+## Install    
     
 ```
 npm i vue-ins-progress-bar   
 ```
    
-# Usage    
+## Usage    
    
 `main.js`   
    
