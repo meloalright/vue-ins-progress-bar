@@ -2,6 +2,8 @@
    
    
 # vue-ins-progress-bar    
+
+[![license](https://img.shields.io/badge/license-MIT-4cb9f2.svg)](https://revolunet.mit-license.org/) [![downloads](https://img.shields.io/badge/downloads-200+/month-b041a8.svg)](https://www.npmjs.com/package/vue-ins-progress-bar)     
    
 `a vue component of ins-style progress bar`   
    
@@ -13,8 +15,8 @@
    
 ## Install    
     
-```
-npm i vue-ins-progress-bar   
+```shell
+$ npm i vue-ins-progress-bar   
 ```
    
 ## Usage    
