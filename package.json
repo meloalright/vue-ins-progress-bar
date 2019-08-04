@@ -17,17 +17,21 @@
     "loading progress",
     "progress bar"
   ],
-  "dependencies": {
-    "style-loader": "^0.21.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
     "cross-env": "^5.2.0",
     "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^1.1.11",
+    "style-loader": "^0.21.0",
     "vue": "^2.5.16",
     "vue-loader": "^15.2.4",
+    "vue-template-compiler": "^2.6.10",
     "webpack": "^4.15.1",
     "webpack-command": "^0.4.1"
   },
