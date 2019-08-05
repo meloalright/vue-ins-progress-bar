@@ -3,7 +3,8 @@
    
 # vue-ins-progress-bar    
 
-[![license](https://img.shields.io/badge/license-MIT-4cb9f2.svg)](https://revolunet.mit-license.org/) [![downloads](https://img.shields.io/badge/downloads-200+/month-b041a8.svg)](https://www.npmjs.com/package/vue-ins-progress-bar)     
+[![license](https://img.shields.io/npm/l/vue-ins-progress-bar?color=%2351bff4)](https://revolunet.mit-license.org/) [![npm](https://img.shields.io/npm/v/vue-ins-progress-bar?color=%2333efc7)](https://www.npmjs.com/package/vue-ins-progress-bar) [![downloads](https://img.shields.io/npm/dm/vue-ins-progress-bar?color=%23ad43a7)](https://www.npmjs.com/package/vue-ins-progress-bar)
+
    
 `a vue component of ins-style progress bar`   
    
@@ -86,9 +87,7 @@ this.$insProgress.height(4) // resize the height of loading bar to 4px
    
 ## Browsers Support  
    
-`Support ins-style progress in modern browsers and IE 10+`   
-
-`Support purple progress in IE 9`   
+`Modern browsers and Internet Explorer 9+ (IE9 purple)`   
    
    
 ## Source    
@@ -98,6 +97,16 @@ Repository: [vue-ins-progress-bar](https://github.com/meloalright/vue-ins-progre
 Contributors: [contributors](https://github.com/meloalright/vue-ins-progress-bar/graphs/contributors)   
    
 Author: [meloalright](https://github.com/meloalright)   
+   
+   
+## Popularity    
+   
+[![downloads](https://img.shields.io/npm/dm/vue-ins-progress-bar?color=%23ad43a7)](https://www.npmjs.com/package/vue-ins-progress-bar)
+   
+   
+## ChangeLog    
+   
+Documented in [Releases](https://github.com/meloalright/vue-ins-progress-bar/releases)   
    
    
 ## License   
