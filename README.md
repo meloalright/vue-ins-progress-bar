@@ -84,11 +84,20 @@ this.$insProgress.height(4) // resize the height of loading bar to 4px
 ```
    
    
+## Browsers Support  
+   
+`Support ins-style progress in modern browsers and IE 10+`   
+
+`Support purple progress in IE 9`   
+   
+   
 ## Source    
    
 Repository: [vue-ins-progress-bar](https://github.com/meloalright/vue-ins-progress-bar)      
    
-Author: [@meloalright](https://github.com/meloalright)   
+Contributors: [contributors](https://github.com/meloalright/vue-ins-progress-bar/graphs/contributors)   
+   
+Author: [meloalright](https://github.com/meloalright)   
    
    
 ## License   
