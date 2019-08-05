@@ -40,6 +40,7 @@ export default {
   },
   created () {
     this.$insProgress.start()
+    console.log("vue-ins-progress-bar demo 20190805")
   },
   mounted () {
     this.handler = () => {
