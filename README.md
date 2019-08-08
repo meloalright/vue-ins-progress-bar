@@ -3,7 +3,7 @@
    
 # vue-ins-progress-bar    
 
-[![license](https://img.shields.io/npm/l/vue-ins-progress-bar?color=%2351bff4)](https://revolunet.mit-license.org/) [![npm](https://img.shields.io/npm/v/vue-ins-progress-bar?color=%2333efc7)](https://www.npmjs.com/package/vue-ins-progress-bar) [![downloads](https://img.shields.io/npm/dm/vue-ins-progress-bar?color=%23ad43a7)](https://www.npmjs.com/package/vue-ins-progress-bar)
+[![license](https://img.shields.io/npm/l/vue-ins-progress-bar?color=%2351bff4)](https://revolunet.mit-license.org/) [![npm](https://img.shields.io/npm/v/vue-ins-progress-bar?color=%2333efc7)](https://www.npmjs.com/package/vue-ins-progress-bar) [![downloads](https://img.shields.io/npm/dm/vue-ins-progress-bar?color=%23ad43a7)](https://www.npmjs.com/package/vue-ins-progress-bar) [![ts](https://img.shields.io/badge/ts-supported-ff69b4)](https://github.com/meloalright/vue-ins-progress-bar/tree/master/types/index.d.ts)
 
    
 `a vue component of ins-style progress bar`   
