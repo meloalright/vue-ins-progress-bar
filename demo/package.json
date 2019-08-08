@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "vue": "^2.5.2",
-    "vue-ins-progress-bar": "^1.1.7",
+    "vue-ins-progress-bar": "^1.3.0",
     "vue-js-toggle-button": "^1.2.3",
     "vue-router": "^3.0.1"
   },
