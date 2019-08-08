@@ -4,6 +4,7 @@
   "version": "1.1.7",
   "description": "A vue ins progress bar",
   "main": "dist/vue-ins-progress-bar.js",
+  "typings": "types/index.d.ts",
   "keywords": [
     "vue ins progress bar",
     "vue ins loading bar",
