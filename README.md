@@ -107,8 +107,8 @@ Author: [meloalright](https://github.com/meloalright)
 ## ChangeLog    
    
 Documented in [Releases](https://github.com/meloalright/vue-ins-progress-bar/releases)   
-   
-   
+
+
 ## License   
    
 [MIT](https://opensource.org/licenses/MIT)   
